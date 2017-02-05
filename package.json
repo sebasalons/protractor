@@ -1,0 +1,10 @@
+{
+  "name": "protractor-web",
+  "version": "0.0.1",
+  "description": "Tests end to end",
+  "dependencies": {
+    "protractor":"*",
+    "webdriver-manager": "*",
+    "selenium-webdriver": "*"
+  }
+}
