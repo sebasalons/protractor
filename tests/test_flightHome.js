@@ -32,7 +32,7 @@ describe('Test express', function() {
                         expect(element.getText()).not.toBe(null);
                     });
             }).then(function() {
-                driver.findElement(by.id('ida')).click();
+                driver.findElement(by.id('li_ida')).click();
             });
     });
 });
