@@ -33,6 +33,11 @@ describe('Test express', function() {
                     });
             }).then(function() {
                 driver.findElement(by.id('li_ida')).click();
+            }).then(function() {
+                driver.findElement(by.id('div_fecha_vuelta_vue')).getAttribute('class').
+                    then(function(classes) {
+                        expect(classes.split(' ').indexOf('disabled')).not.toEqual(-1);
+                });
             });
     });
 });
